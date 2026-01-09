@@ -1,0 +1,26 @@
+# Zig
+zig-cache/
+zig-out/
+build/
+
+# C / Build artifacts
+*.o
+*.a
+*.so
+*.out
+*.obj
+*.lib
+*.dll
+*.exe
+
+# Executables (specific to this book's examples)
+chapter-01/daytimetcpcli
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.un~
+.DS_Store
