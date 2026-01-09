@@ -30,5 +30,14 @@ printf "Tue Jan  9 12:00:00 2026\n" | ncat -l 1313
 ```
 *(Note: If the C code is hardcoded to port 13, you might need to run `ncat` with `sudo` on port 13 or change the code to port 1313).*
 
----
-*Zig implementation coming soon.*
+### 2. TCP Daytime Client (Zig)
+
+#### Build (Zig)
+```bash
+zig build-exe -O Debug daytimetcpcli.zig
+```
+
+#### Run
+```bash
+./daytimetcpcli 127.0.0.1
+```
